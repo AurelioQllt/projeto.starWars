@@ -4,4 +4,526 @@
     box-sizing: border-box;
 }
 
+/* -------------------------HEADER----------------------------- */
 
+header {
+    background-image: url(./imgs/header.png);
+    background-size: cover;
+    width: 100%;
+    height: 83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .kylo {
+    width: 60vw;
+    position: relative;
+    right: 5vw;
+    top: 10vh; 
+}
+
+header section:first-of-type {
+    width: 2vw;
+    height: 35vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+header .nav section {
+    width: 21vw;
+    height: 65vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}    
+
+header section img {
+    width: 25vw ;
+}
+
+header .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 70vh;
+    width: 3vw;
+    justify-content: flex-end;
+}
+
+header .topicoNav {
+    width: 10vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5em;
+}
+
+header .nav div {
+    border-top: solid black;
+    width: 10vw;
+    height: 8vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+header .nav p:first-child {
+    width: 3em;
+}
+
+header .spanLegiao {
+    width: 11vw;
+    height: 7vh;
+    display: flex;
+    align-items: flex-end;
+    font-weight: 700;
+}
+
+header .spanNumero {
+    font-weight: 400;
+    font-size: smaller;
+}
+
+header button {
+    width: 1vw;
+    height: 2.5vh;
+    margin-left: 0.2em;
+}
+
+/* -------------------------MAIN----------------------------- */
+
+main .parteZero {
+    /* border: solid black; */
+    background-image: url(./imgs/robot.png);
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+main .parteUm {
+    /* border: solid blue; */
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .divUm {
+    /* border: solid orangered; */
+    background-image: url(./imgs/trupe.png);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    width: 20vw;
+    height: 60vh;
+    color: white;
+    font-family: "Roboto", sans-serif ;
+    z-index: 1;
+    position: relative;
+    bottom: 3em;
+}
+
+main .divUm h2 {
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+}
+
+main .divUm p {
+    width: 16vw;
+    height: 15vh;
+    font-size: 0.8em;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+}
+
+main .divUm button {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 3px;
+    color: white;
+    background: transparent;
+}
+
+main .divDois {
+    /* border: solid green; */
+    height: 53vh;
+    display: flex;
+    justify-content: flex-end;
+}
+main .divDois div {
+    /* border: solid hotpink; */
+    width: 35vw;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+main .divDois h3 {
+    border-bottom: solid;
+    /* border: solid yellow; */
+    width: 12vw;
+    height: 5vh;
+    text-align: right;
+    font-family: "Roboto",sans-serif;
+}
+
+main .divDois p {
+    /* border: solid orangered; */
+    width: 26.5vw;
+    text-align: right;
+    font-family: "Roboto",sans-serif;
+    font-size: 0.8em;
+}
+
+main .divDois figure {
+    width: 30vw;
+    display: flex;
+    align-items: flex-end;
+    margin-left: 10px;
+} 
+
+main .divDois img {
+    width: 17vw;
+} 
+
+main .parteDois {
+    border-top: solid #707070;
+    width: 72vw;
+    height: 80vh;
+    display: flex;
+    align-items: flex-end;
+    margin-right: 11em;
+}
+
+main .figLord {
+    /* border: solid magenta; */
+    width: 32vw;
+    height: 62vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main .figLord img {
+    width: 35vw;
+    height: 67vh;
+}
+
+main .parteDois nav {
+    /* border: solid orange; */
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+main .parteDois nav h2 {
+    /* border: solid salmon; */
+    width: 7em;
+    font-size: 2em;
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+    font-weight: 400;
+}
+
+main .parteDois nav span {
+    font-weight: 900;
+}
+
+main .parteDois ul {
+    list-style: none;
+
+}
+
+main .parteDois li {
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+    line-height: 2.5em;
+}
+
+main .figRey {
+    /* border: solid green; */
+    width: 15vw;
+    height: 50vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+main .figRey img {
+    width: 15vw;
+    height: 55vh;
+}
+
+main .parteDark {
+    background-color: #2D2D2D;
+    height: 250vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main .parteDark h2 {
+    font-family: "Roboto",sans-serif;
+    color: white;
+}
+
+main .parteDark section {
+    /* border: solid blue; */
+    width: 80vw;   
+    height: 50vh;
+    display: flex;
+}
+
+main .parteDark div {
+    /* border: solid palevioletred; */
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main .parteDark .fig1 {
+    background-image: url(./imgs/fig1.png);
+    background-size: cover;
+    width: 40vw;
+    height: 50vh;
+}
+
+main .parteDark .fig2 {
+    background-image: url(./imgs/fig2.png);
+    background-size: cover;
+    width: 19.5vw;
+    height: 25vh;
+
+}
+
+main .parteDark .fig3 {
+    background-image: url(./imgs/fig3.png);
+    background-size: cover;
+    width: 19.5vw;
+    height: 25vh;
+}
+
+main .parteDark .fig4 {
+    background-image: url(./imgs/fig4.png);
+    background-size: cover;
+    width: 19.5vw;
+    height: 25vh;
+}
+
+main .parteDark .fig5 {
+    background-image: url(./imgs/fig5.png);
+    background-size: cover;
+    width: 19.5vw;
+    height: 25vh;
+}
+
+main .parteDark .fig6 {
+    width: 80vw; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+main .parteDark .fig6 img {
+    width: 80vw;
+}
+
+main .parteDark figcaption {
+    /* border: solid pink; */
+    color: white;
+    text-align: right;
+    width: 55vw;
+    font-family: "Roboto",sans-serif;
+    
+}
+
+main .parteWhite {
+    /* border: solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 55vh;
+}
+
+main .parteWhite figure {
+    /* border: solid seagreen; */
+    height: 25vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+main .parteWhite figure img {
+    width: 27VW;
+}
+
+main .parteWhite div {
+    border-bottom: solid black;
+    height: 25vh;
+    width: 12vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto",sans-serif;
+
+}
+
+main .parteWhite h2 {
+    height: 7vh;
+}
+
+main .parteWhite button {
+    height: 7vh;
+    width: 12vw;
+    background-color: black;
+    color: white;
+}
+
+main .parteWhite .p1  {
+    width: 9vw;
+}
+
+main .parteWhite .p2  {
+    width: 6vw;
+}
+
+main .parteWhite .p3 {
+    width: 5vw;
+} 
+
+main .parteWhite p {
+    width: 10vw;
+    height: 10vh;
+    font-size: small;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+/* -------------------------FOOTER----------------------------- */
+
+footer {
+    /* border: solid; */
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 20vw;
+}
+
+footer .parteRed {
+    background-color: #FF5A56;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "Roboto",sans-serif;
+    color: white;
+    width: 68vw;
+    height: 90vh;
+}
+
+footer .parteRed section {
+    /* border: solid green; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .parteRed .div1 h2 {
+    /* border: solid yellow; */
+    font-size: 2em;
+    width: 30vw;
+    height: 10vh;
+}
+
+footer .parteRed .div1 p {
+    /* border: solid aqua; */
+    width: 30vw;
+    height: 13vh;
+    font-size: 0.9em;
+}
+
+footer .parteRed .div1 div {
+    /* border: solid magenta; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+footer .parteRed .div1 figure {
+    /* border: solid purple; */
+    height: 15vh;
+}
+
+footer .parteRed .div1 img {
+    /* border: solid orangered; */
+    width: 14vw;
+}
+
+footer .parteRed .div2 {
+    border-top: solid #D74430;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30vw;
+}
+
+footer .parteRed .div2 figure {
+    /* border: solid yellow; */
+    height: 28vh;
+    display: flex;
+    align-items: center;
+}
+
+footer .parteRed .div2 img {
+    /* border: solid chartreuse; */
+    width: 14vw;
+}
+
+footer .parteRed .div2 p {
+    /* border: solid red; */
+    font-size: 0.9em;
+}
+
+
+footer .parteRed .darth {
+    /* border: solid olive ; */
+    width: 1vw;
+    height: 80vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+footer .parteRed .darth img {
+    height: 98vh;
+    width: 40vw;    
+}
+
+footer .referencia {
+    /* border: solid; */
+    display: flex;
+    align-items: flex-end;
+    font-size: 0.8em;
+    width: 23vw;
+    margin-bottom: 2em;
+}
+
+/* -------------------------MOBILE----------------------------- */
+
+@media screen and (max-width: 767px) {
+    header {
+      
+    }
+}    
